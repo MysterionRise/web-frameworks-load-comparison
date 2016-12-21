@@ -14,5 +14,3 @@ List of planned workarounds:
 * play
 * vert.x
 * restexpress
-* scalatra
-* finatra
