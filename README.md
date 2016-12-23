@@ -13,8 +13,6 @@ Project contract:
 
 List of planned workarounds:
 * spring + tomcat
-* raw netty
+* vert.x
 * akka
 * play
-* vert.x
-* restexpress
