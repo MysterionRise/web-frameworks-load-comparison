@@ -4,7 +4,6 @@ This is repository for comparing performance of web-application built with diffe
 
 
 Benchmark tools:
-* [Gatling](http://gatling.io/)
 * [Apache bench](https://httpd.apache.org/docs/2.4/programs/ab.html)
 
 
