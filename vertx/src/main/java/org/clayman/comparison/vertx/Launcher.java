@@ -14,7 +14,7 @@ public class Launcher {
         router.get("/ping").handler(event -> {
             event
                     .response()
-                    .putHeader("content-type", "text/html")
+                    .putHeader("content-type", "text/plain")
                     .setStatusCode(200)
                     .end("OK");
         });
