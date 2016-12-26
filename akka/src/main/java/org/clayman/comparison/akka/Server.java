@@ -12,13 +12,16 @@ import akka.http.javadsl.server.Route;
 import akka.http.scaladsl.model.StatusCode;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import java.util.concurrent.CompletionStage;
 
 public class Server extends AllDirectives {
 
     public static void main(String[] args) throws Exception {
-        ActorSystem system = ActorSystem.create("routes");
+        Config config = ConfigFactory.load("application.conf");
+        ActorSystem system = ActorSystem.create("routes", config);
 
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
@@ -28,7 +31,6 @@ public class Server extends AllDirectives {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = app.createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
                 ConnectHttp.toHost("localhost", 8080), materializer);
-
 
         System.in.read();
         binding
