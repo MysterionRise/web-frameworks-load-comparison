@@ -15,4 +15,4 @@ List of planned workarounds:
 * spring + tomcat
 * vert.x
 * akka
-* play (tbd, community pls :) )
+* play (thx to @MysterionRise)
