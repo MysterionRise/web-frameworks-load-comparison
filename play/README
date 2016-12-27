@@ -1,0 +1,4 @@
+### How to
+
+1. sbt clean run
+2. localhost:9000/ping returns plain/text
