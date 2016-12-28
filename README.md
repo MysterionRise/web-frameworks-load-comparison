@@ -11,7 +11,7 @@ Project contract:
 * /ping - simple api route, instanly returns random integer, as described at [javadoc](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html#nextInt--)
 
 
-List of planned workarounds:
+Results:
 * [spring + tomcat](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/spring-tomcat/README.md)
 * [vert.x](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/vertx/README.md)
 * [akka](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/akka/README.md)
