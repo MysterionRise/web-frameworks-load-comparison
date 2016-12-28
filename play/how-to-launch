@@ -1,4 +1,0 @@
-### How to
-
-1. sbt clean start
-2. localhost:8080/ping returns plain/text
