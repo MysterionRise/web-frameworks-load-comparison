@@ -9,7 +9,7 @@ Results:
     * 100% = 3071 ms
 * c5k n5kk:
     * total = 190.995 s
-    * failed = 52.27122% **SIC!**
+    * failed = 0%
     * rps = 26178
     * 95% = 1173 ms
     * 98% = 1293 ms
@@ -17,7 +17,7 @@ Results:
     * 100% = 7871 ms
 * c10k n10kk:
     * total = 422.278 s
-    * failed = 73.2% **SIC!**
+    * failed = 0%
     * rps = 23681.10
     * 95% = 1679 ms
     * 98% = 2069 ms
