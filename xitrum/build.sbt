@@ -18,19 +18,6 @@ libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.7"
 // For writing condition in logback.xml
 libraryDependencies += "org.codehaus.janino" % "janino" % "3.0.6"
 
-libraryDependencies += "org.webjars.bower" % "bootstrap-css" % "3.3.6"
-
-// Scalate template engine config for Xitrum -----------------------------------
-
-libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.7.0"
-
-// Precompile Scalate templates
-Seq(scalateSettings:_*)
-ScalateKeys.scalateTemplateConfig in Compile := Seq(TemplateConfig(
-  baseDirectory.value / "src" / "main" / "scalate",
-  Seq(),
-  Seq(Binding("helper", "xitrum.Action", importMembers = true))
-))
 
 // xgettext i18n translation key string extractor is a compiler plugin ---------
 
