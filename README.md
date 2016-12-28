@@ -12,7 +12,7 @@ Project contract:
 
 
 List of planned workarounds:
-* spring + tomcat
-* vert.x
-* akka
-* play (thx to @MysterionRise)
+* [spring + tomcat](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/spring-tomcat/README.md)
+* [vert.x](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/vertx/README.md)
+* [akka](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/akka/README.md)
+* [play](https://github.com/IgorPerikov/web-frameworks-load-comparison/blob/master/play/README.md)
