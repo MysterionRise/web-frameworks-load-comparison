@@ -21,7 +21,7 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def ping = Action {
-    Ok("Hello, world!")
+    Ok("")
   }
 
 }
