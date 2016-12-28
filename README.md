@@ -8,7 +8,7 @@ Benchmark tools:
 
 
 Project contract:
-* /ping - simple api route, instanly returns "OK"
+* /ping - simple api route, instanly returns random integer, as described at [javadoc](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html#nextInt--)
 
 
 List of planned workarounds:
