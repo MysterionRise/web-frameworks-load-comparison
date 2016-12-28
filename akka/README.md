@@ -1,7 +1,7 @@
 Results:
 * c1k n1kk:
     * total = 237.212 s
-    * failed = 0.009387%
+    * failed = 0.9387%
     * rps = 4215.64
     * 95% = 47 ms
     * 98% = 79 ms
