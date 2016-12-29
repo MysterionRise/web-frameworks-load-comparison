@@ -2,5 +2,5 @@
 
 Production mode
 ```
-sbt clean start
+../utils/sbt/sbt clean start
 ```
