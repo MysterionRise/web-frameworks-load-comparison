@@ -1,6 +1,6 @@
 ## Build & Run ##
 
 ```
-../utils/sbt/sbt run
+../utils/sbt/sbt
 jetty:start
 ```

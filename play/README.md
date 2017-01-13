@@ -1,3 +1,8 @@
+Average results between 5 calls:
+* c1k n1kk: 27097
+* c5k n5kk: 27316
+* c10k n10kk: 26144
+
 Results:
 * c1k n1kk:
     * total = 36.169 s
@@ -17,7 +22,7 @@ Results:
     * 100% = 31275 ms
 * c10k n10kk:
     * total = 354.225 s
-    * failed = 0.0000045%
+    * failed = 0.00045%
     * rps = 28230.68
     * 95% = 1219 ms
     * 98% = 3058 ms
